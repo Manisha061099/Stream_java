@@ -8,5 +8,5 @@ import java.util.stream.Collectors;
 	        List<Integer> integerList = stringList.stream().map(Integer::parseInt).collect(Collectors.toList());
 	        System.out.println("List of integers: " + integerList + stringList);
 	    }
-	  }
+	}
 
