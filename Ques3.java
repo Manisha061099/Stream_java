@@ -10,7 +10,7 @@ public class Ques3 {
         int OddNumbers = numbers.stream().filter(num -> num % 2 != 0).mapToInt(Integer::intValue).sum();
 		        System.out.println("Sum of even numbers: " + EvenNumbers);
 		        System.out.println("Sum of odd numbers: " + OddNumbers);
-		    }
+	}
 
 	}
 
